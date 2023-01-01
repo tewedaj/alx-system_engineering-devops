@@ -1,20 +1,22 @@
 #!/usr/bin/env bash
-# using while loop wear 4, 9 and 17 are replced
+# This script prints "bad luck" 4th iteration, "good luck" on the 8th iteration, and "Holberton School" for other iterations
+n=1
 
-declare -i idx=1
-while (( idx < 21 ))
+while [ $n -le 20 ]
 do
-   echo "$idx"
-   case "$idx" in 
-   4)
-   	echo "bad luck from China"
-	;;
-   9)
-	echo "bad luck from Japan"
-	;;
-   17)
-        echo "bad luck from Italy"
-	;;
-   esac
-   ((idx++))
+    echo $n
+    case $n in
+        4)
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "bad luck from Italy"
+            ;;
+        *)
+            ;;
+    esac
+    n=$(( n + 1 ))
 done
