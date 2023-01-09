@@ -55,22 +55,7 @@ Requirements
 -   The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 -   The second line of all your Bash scripts should be a comment explaining what is the script doing
 
-Your servers
-------------
 
-| Name | Username | IP | State |  |
-| --- | --- | --- | --- | --- |
-| 1733-web-01 | `ubuntu` | `3.235.21.36` | running |
-
-Actions Toggle Dropdown
-
- |
-| 1733-web-02 | `ubuntu` | `3.83.35.54` | running |
-
-Actions Toggle Dropdown
-
- |
-| 1733-lb-01 | `ubuntu` | `34.231.109.143` | running |
 
 Actions Toggle Dropdown
 
